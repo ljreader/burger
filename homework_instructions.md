@@ -41,10 +41,13 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
 ## 8. Install MySQL npm package: `npm install mysql --save`.
 
-9. Require the following npm packages inside of the server.js file:
+## 9. Require the following npm packages inside of the server.js file:
    * express
    * method-override
    * body-parser
+
+<!-- var express = require("express");
+var bodyParser = require("body-parser"); -->
 
 #### DB Setup
 
