@@ -46,12 +46,9 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
    * method-override
    * body-parser
 
-<!-- var express = require("express");
-var bodyParser = require("body-parser"); -->
-
 #### DB Setup
 
-1. Inside your `burger` directory, create a folder named `db`.
+## 1. Inside your `burger` directory, create a folder named `db`.
 
 2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
 

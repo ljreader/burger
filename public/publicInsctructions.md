@@ -1,0 +1,1 @@
+Public folder contains all the public assets that I will be using. (images, css, etc.)

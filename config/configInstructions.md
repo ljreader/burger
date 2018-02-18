@@ -1,0 +1,2 @@
+Cinfigurations folder is used to store connection to my SQL and ORM (Object-Relational Mapping is a technique that lets you query and manipulate data from a database using an object-oriented paradigm.)
+In charge of all connections to MySql.
