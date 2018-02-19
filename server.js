@@ -12,15 +12,19 @@ var bodyParset = require('body-parser');
 var expressHandlebars = require('express-handlebars');
 
 var app = express();
-app.use(express.static(_dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 app.use(bodyParser.urlencoded({
     extended: false
 }));
+
 app.set(methodOverride('_method'));
 app.engine('handlebars', expressHandlebars({defaultLayout: 'main'}));
 app.set('vies engine','handlebars');
 
+var routes = require('./controllers/routes.js');
+app.use('/',routes);
+ 
 var part = 3000;
 app.listen(port);
 
