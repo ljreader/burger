@@ -18,9 +18,9 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-app.set(methodOverride('_method'));
+app.use(methodOverride('_method'));
 app.engine('handlebars', expressHandlebars({defaultLayout: 'main'}));
-app.set('vies engine','handlebars');
+app.set('view engine','handlebars');
 
 var routes = require('./controllers/routes.js');
 app.use('/',routes);
