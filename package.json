@@ -1,26 +1,8 @@
 {
-  "name": "burger",
+  "name": "burgers",
   "version": "1.0.0",
-  "description": "In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ljreader/burger.git"
-  },
-  "keywords": [
-    "burger",
-    "handlebars",
-    "week14"
-  ],
-  "author": "ljreader",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ljreader/burger/issues"
-  },
-  "homepage": "https://github.com/ljreader/burger#readme",
+  "description": "Burger application",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
@@ -28,5 +10,24 @@
     "handlebars": "^4.0.11",
     "method-override": "^2.3.10",
     "mysql": "^2.15.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljreader/burger.git"
+  },
+  "keywords": [
+    "burger",
+    "handlebars"
+  ],
+  "author": "ljreader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljreader/burger/issues"
+  },
+  "homepage": "https://github.com/ljreader/burger#readme"
 }
