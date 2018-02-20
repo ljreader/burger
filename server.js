@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-app.use(method-Override('_method'));
+app.use(methodOverride('_method'));
 app.engine('handlebars', expressHandlebars({defaultLayout: 'main'}));
 app.set('view engine','handlebars');
 
