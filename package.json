@@ -1,7 +1,7 @@
 {
-  "name": "burgers",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "Burger application",
+  "description": "I created a burger app using MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -24,7 +24,7 @@
   },
   "keywords": [
     "burger",
-    "handlebars"
+    "mysql"
   ],
   "author": "ljreader",
   "license": "ISC",
