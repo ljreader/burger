@@ -1,0 +1,68 @@
+body {
+	background-image: url("../img/hamburger-bg.jpg");
+	font-family: 'Indie Flower', cursive;
+	font-size: 16px;
+	line-height: 1.8;
+	width: 960px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+#wrap {
+	margin: auto;
+	width: auto;
+	height: auto;
+	background-color: #b0d0df;
+	border-radius: 15px;
+	box-shadow: 0px 4px 6px black;
+	padding: 0 10px 20px 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding-left: 0px;
+}
+
+li {
+	border-radius: 15px;
+	border: 1px solid white;
+	margin-bottom: 10px;
+	background-color: #c9fbff;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+button {
+	width: 80px;
+	height: 25px;
+	margin: 10px 0px 10px 0px;
+}
+
+
+#notEaten {
+	float: left;
+}
+
+#eaten {
+	float: right;
+}
+
+.section {
+	background-color: #f7f7f7;
+	border-radius: 15px;
+	box-shadow: 0px 0px 4px black;
+	padding: 0px 10px 20px 10px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+#add {
+	clear: both;
+	margin: auto;
+	text-align: center;
+	width: 400px;
+}
