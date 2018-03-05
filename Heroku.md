@@ -11,6 +11,8 @@ HEROKU LOGIN
 
 ## Step 3
     $ git push heroku master
+    or to push changes
+    $ git push https://git.heroku.com/ljfriendfinder.git
 
 ## Step 4
     $ heroku ps:scale web=1
