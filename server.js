@@ -5,7 +5,9 @@ var methodOverride = require("method-override");
 
 var app = express();
 
-app.use(express.static(process.cwd() + "/public"));
+// app.use(express.static(process.cwd() + "/public"));
+
+app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
