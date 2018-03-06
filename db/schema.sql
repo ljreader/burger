@@ -1,12 +1,11 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+DROP DATABASE IF EXISTS s6xu95aimln1hriq;
+CREATE DATABASE s6xu95aimln1hriq;
+USE s6xu95aimln1hriq;
 
--- Create the burger table.
-CREATE TABLE burgers
-(
-id int NOT NULL AUTO_INCREMENT,
-burger_name varchar(255) NOT NULL,
-devoured BOOLEAN DEFAULT false,
-date TIMESTAMP,
-PRIMARY KEY (id)
+CREATE TABLE burgers (
+    id INT NOT NULL AUTO_INCREMENT,
+    burger_name VARCHAR(80) NOT NULL,
+    devoured BOOLEAN NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
 );

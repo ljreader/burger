@@ -1,17 +1,14 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "I created a burger app using MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
+  "description": "In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.11",
     "method-override": "^2.3.10",
-    "mysql": "^2.15.0",
-    "request": "^2.83.0",
-    "response": "^0.18.0"
+    "mysql": "^2.15.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -24,7 +21,7 @@
   },
   "keywords": [
     "burger",
-    "mysql"
+    "MySql"
   ],
   "author": "ljreader",
   "license": "ISC",

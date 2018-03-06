@@ -1,3 +1,4 @@
-INSERT INTO burgers (burger_name) VALUES ('Triple Bacon Cheeseburger');
-INSERT INTO burgers (burger_name) VALUES ('Vegan Burger');
-INSERT INTO burgers (burger_name) VALUES ('Single Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ("Big Kahuna Burger", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Krusty Burger", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Krabby Patty", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Veggie", true);

@@ -1,68 +1,81 @@
 body {
-	background-image: url("../img/hamburger-bg.jpg");
-	font-family: 'Indie Flower', cursive;
-	font-size: 16px;
-	line-height: 1.8;
-	width: 960px;
-	height: auto;
-	margin: auto;
-	text-align: center;
+    background-color: black;
+    background: url("../images/bc_resize.gif") no-repeat top left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#wrap {
-	margin: auto;
-	width: auto;
-	height: auto;
-	background-color: #b0d0df;
-	border-radius: 15px;
-	box-shadow: 0px 4px 6px black;
-	padding: 0 10px 20px 10px;
+.add {
+    margin: 2% -3%;
 }
 
-ul {
-  list-style-type: none;
-  margin: auto;
-  padding-left: 0px;
+.heading {
+    font-family: "Righteous", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+ul,li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
-li {
-	border-radius: 15px;
-	border: 1px solid white;
-	margin-bottom: 10px;
-	background-color: #c9fbff;
+.btnDevour {
+    background: rgb(255, 131, 23);
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    border: 1px solid #FF851B;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 12px;
 }
 
-h2 {
-	text-decoration: underline;
+.burgerType {
+    font-size: 25px;
+    color: aquamarine;
+    font-family: 'Righteous', cursive;
+    padding-top: 12px;
 }
 
-button {
-	width: 80px;
-	height: 25px;
-	margin: 10px 0px 10px 0px;
+#btnCreate {
+    display: block;
+    margin: 0 auto;
+    background: rgb(255, 131, 23);
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #FF851B;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
-
-#notEaten {
-	float: left;
+#textArea {
+    color: red;
 }
 
-#eaten {
-	float: right;
-}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: black;
+        background: url("../images/bc_resize.gif") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto;
+    }
 
-.section {
-	background-color: #f7f7f7;
-	border-radius: 15px;
-	box-shadow: 0px 0px 4px black;
-	padding: 0px 10px 20px 10px;
-	overflow: auto;
-	margin-bottom: 20px;
-}
-
-#add {
-	clear: both;
-	margin: auto;
-	text-align: center;
-	width: 400px;
+    .logo img{
+        width: 100%;
+    }
 }
